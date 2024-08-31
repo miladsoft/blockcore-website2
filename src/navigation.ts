@@ -1,4 +1,4 @@
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import { getPermalink, getBlogPermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -126,7 +126,6 @@ export const footerData = {
         { text: 'Explorer', href: getPermalink('/platform/explorer') },
         { text: 'Indexer', href: getPermalink('/platform/indexer') },
         { text: 'Wallet', href: getPermalink('/platform/wallet') },
-        { text: 'DIDs', href: getPermalink('/platform/dids') },
         { text: 'DWNs', href: getPermalink('/platform/dwns') },
       ],
     },

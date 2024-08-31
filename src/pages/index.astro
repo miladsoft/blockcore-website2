@@ -3,11 +3,11 @@ import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
 // import Note from '~/components/widgets/Note.astro';
-import Features from '~/components/widgets/Features.astro';
+// import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+// import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
@@ -46,7 +46,7 @@ const metadata = {
 
   <!-- Features Widget *************** -->
 
-  <Features
+  <!-- <Features
     id="features"
     tagline="Features"
     title="What you get with Blockcore"
@@ -89,7 +89,7 @@ const metadata = {
         icon: 'tabler:shield-check',
       },
     ]}
-  />
+  /> -->
 
   <!-- Content Widget **************** -->
 
@@ -207,36 +207,39 @@ const metadata = {
   <!-- Steps Widget ****************** -->
 
   <Steps
-    title="Launch Your Blockchain Project with Blockcore in Just a Few Steps"
-    items={[
-      {
-        title: 'Step 1: <span class="font-medium">Download</span>',
-        description:
-          "Start by cloning the Blockcore repository from GitHub or using our template to kickstart your project. In just a few clicks, you’re ready to build.",
-        icon: 'tabler:package',
-      },
-      {
-        title: 'Step 2: <span class="font-medium">Add Content</span>',
-        description:
-          "Add your unique content, whether it's a new blockchain protocol or a decentralized application. Customize it to fit your vision.",
-        icon: 'tabler:letter-case',
-      },
-      {
-        title: 'Step 3: <span class="font-medium">Customize Styles</span>',
-        description:
-          'Refine the appearance and functionality of your project using Blockcore’s flexible tools, ensuring it aligns with your brand and goals.',
-        icon: 'tabler:paint',
-      },
-      {
-        title: 'Ready!',
-        icon: 'tabler:check',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Blockcore Steps',
-    }}
-  />
+  title="Explore the Benefits of Blockchain with Blockcore"
+  items={[
+    {
+      title: 'Transparency & Trust',
+      description:
+        "Blockchain technology provides unmatched transparency by creating an immutable record of transactions, fostering trust among all participants.",
+      icon: 'tabler:eye',
+    },
+    {
+      title: 'Enhanced Security',
+      description:
+        "Benefit from robust security with cryptographic protocols that safeguard your data and transactions against tampering and fraud.",
+      icon: 'tabler:shield-lock',
+    },
+    {
+      title: 'Decentralization & Autonomy',
+      description:
+        "Operate with autonomy through decentralized networks, reducing reliance on central authorities and intermediaries.",
+      icon: 'tabler:network',
+    },
+    {
+      title: 'Efficiency & Speed',
+      description:
+        'Streamline processes and reduce transaction times with blockchain’s automated, real-time operations, enhancing overall efficiency.',
+      icon: 'tabler:clock',
+    },
+  ]}
+  image={{
+    src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
+    alt: 'Blockchain Benefits',
+  }}
+/>
+
 
   <!-- Features2 Widget ************** -->
 
@@ -300,12 +303,12 @@ const metadata = {
 
   <!-- HighlightedPosts Widget ******* -->
 
-  <BlogLatestPosts
+  <!-- <BlogLatestPosts
     title="Explore More in Our Blog"
     information={`Our blog is your gateway to understanding Blockcore's ecosystem.
                         Discover in-depth articles, tutorials, and insights that will guide you in creating, managing, and optimizing your blockchain projects using Blockcore’s tools and technologies.
                         Join us on the journey to decentralization!`}
-  />
+  /> -->
 
   <!-- FAQs Widget ******************* -->
 
