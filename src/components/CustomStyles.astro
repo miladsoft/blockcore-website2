@@ -1,0 +1,76 @@
+---
+import '@fontsource-variable/inter';
+
+// 'DM Sans'
+// Nunito
+// Dosis
+// Outfit
+// Roboto
+// Literata
+// 'IBM Plex Sans'
+// Karla
+// Poppins
+// 'Fira Sans'
+// 'Libre Franklin'
+// Inconsolata
+// Raleway
+// Oswald
+// 'Space Grotesk'
+// Urbanist
+---
+
+<style is:inline>
+  :root {
+    --blockcore-font-sans: 'Inter Variable';
+    --blockcore-font-serif: 'Inter Variable';
+    --blockcore-font-heading: 'Inter Variable';
+
+    --blockcore-color-primary: rgb(34, 113, 157);
+    --blockcore-color-secondary: rgb(34, 165, 157);
+    --blockcore-color-accent: rgb(109 40 217);
+
+    --blockcore-color-text-heading: rgb(0 0 0);
+    --blockcore-color-text-default: rgb(16 16 16);
+    --blockcore-color-text-muted: rgb(16 16 16 / 66%);
+    --blockcore-color-bg-page: rgb(255 255 255);
+
+    --blockcore-color-bg-page-dark: rgb(39, 41, 50);
+
+    ::selection {
+      background-color: lavender;
+    }
+  }
+
+  .dark {
+    --blockcore-font-sans: 'Inter Variable';
+    --blockcore-font-serif: 'Inter Variable';
+    --blockcore-font-heading: 'Inter Variable';
+
+    --blockcore-color-primary: rgb(34, 113, 157);
+    --blockcore-color-secondary: rgb(34, 165, 157);
+    --blockcore-color-accent: rgb(109 40 217);
+
+    --blockcore-color-text-heading: rgb(247, 248, 248);
+    --blockcore-color-text-default: rgb(229 236 246);
+    --blockcore-color-text-muted: rgb(229 236 246 / 66%);
+    --blockcore-color-bg-page: rgb(39, 41, 50);
+
+    ::selection {
+      background-color: black;
+      color: snow;
+    }
+  }
+  body::-webkit-scrollbar {
+      width: 10px;
+   }
+   body::-webkit-scrollbar-track {
+      background: var(--blockcore-color-bg-page); 
+   }
+   body::-webkit-scrollbar-thumb {
+      background: var(--blockcore-color-primary); 
+      border-radius: 10px;
+   }
+   body::-webkit-scrollbar-thumb:hover {
+      background: var(--blockcore-color-secondary); 
+   }
+</style>
