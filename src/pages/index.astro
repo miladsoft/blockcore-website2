@@ -13,7 +13,7 @@ import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Blockcore — Decentralize everything is our vision.',
+  title: 'Blockcore — Empowering the Future of Decentralization',
   ignoreTitleTemplate: true,
 };
 ---
@@ -22,110 +22,106 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-  actions={[
-    {
-      variant: 'primary',
-      text: 'Get Started',
-      href: 'https://github.com/block-core',
-      target: '_blank',
-      icon: 'tabler:download',
-    },
-    { text: 'Learn More', href: '#features' },
-  ]}
-  image={{ src: '~/assets/images/hero-image.png', alt: 'Blockcore Hero Image' }}
->
-  <Fragment slot="title">
-    Decentralize everything is our vision.
-  </Fragment>
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Get Started',
+        href: 'https://github.com/block-core',
+        target: '_blank',
+        icon: 'tabler:download',
+      },
+      { text: 'Learn More', href: '#features' },
+    ]}
+    image={{ src: '~/assets/images/hero-image.png', alt: 'Blockcore Hero Image' }}
+  >
+    <Fragment slot="title">
+      Empowering the Future of Decentralization
+    </Fragment>
 
-  <Fragment slot="subtitle">
-    <span class="font-semibold">Blockcore</span> is your gateway to building the decentralized future. We provide the tools to transform ideas into reality, ensuring a secure, scalable, and innovative foundation for all your blockchain needs.
-  </Fragment>
-</Hero>
+    <Fragment slot="subtitle">
+      <span class="font-semibold">Blockcore</span> provides the foundation for building the decentralized future. Our platform offers the essential tools to transform your vision into reality, ensuring security, scalability, and innovation in every step.
+    </Fragment>
+  </Hero>
 
-
-  <!-- Note Widget ******************* -->
-
-  <!-- <Note /> -->
 
   <!-- Features Widget *************** -->
 
   <Features
-  id="features"
-  tagline="Features"
-  title="What you get with Blockcore"
-  subtitle="Blockcore provides a powerful, open-source platform designed to empower developers with the tools needed to create decentralized applications and custom blockchains."
-  items={[
-    {
-      title: 'Comprehensive Blockchain Toolkit',
-      description:
-        'A full suite of tools including blockchain nodes, explorers, indexers, and decentralized identifiers, all integrated into a seamless development experience.',
-      icon: 'tabler:code',
-    },
-    {
-      title: 'Non-Custodial Wallets',
-      description:
-        'Secure, user-controlled wallets for desktop, mobile, and web, ensuring full control over your digital assets.',
-      icon: 'tabler:lock',
-    },
-    {
-      title: 'Decentralized Web Nodes',
-      description:
-        'Host and publish decentralized identifiers and verifiable credentials with Blockcore’s robust DWN infrastructure.',
-      icon: 'tabler:server',
-    },
-    {
-      title: 'Flexible Blockchain Solutions',
-      description:
-        'Whether you’re forking existing code or using Blockcore’s templates, our platform offers flexible, scalable, and secure blockchain solutions.',
-      icon: 'tabler:puzzle',
-    },
-    {
-      title: 'Community-Driven Development',
-      description:
-        "Blockcore is built on open-source principles, inviting contributions from developers around the world to drive innovation and enhance the platform.",
-      icon: 'tabler:users',
-    },
-    {
-      title: 'Optimized for Performance and Security',
-      description:
-        'Designed with best practices in mind, Blockcore ensures high performance, strong security, and an excellent user experience.',
-      icon: 'tabler:shield-check',
-    },
-  ]}
-/>
+    id="features"
+    tagline="Features"
+    title="What you get with Blockcore"
+    subtitle="Blockcore offers a powerful, open-source platform designed to equip developers with everything they need to create decentralized applications and custom blockchains."
+    items={[
+      {
+        title: 'Comprehensive Blockchain Toolkit',
+        description:
+          'A full suite of tools including blockchain nodes, explorers, indexers, and decentralized identifiers, all integrated into a seamless development experience.',
+        icon: 'tabler:code',
+      },
+      {
+        title: 'Non-Custodial Wallets',
+        description:
+          'Secure, user-controlled wallets for desktop, mobile, and web, ensuring full control over your digital assets.',
+        icon: 'tabler:lock',
+      },
+      {
+        title: 'Decentralized Web Nodes',
+        description:
+          'Host and publish decentralized identifiers and verifiable credentials with Blockcore’s robust DWN infrastructure.',
+        icon: 'tabler:server',
+      },
+      {
+        title: 'Flexible Blockchain Solutions',
+        description:
+          'Whether you’re forking existing code or using Blockcore’s templates, our platform offers flexible, scalable, and secure blockchain solutions.',
+        icon: 'tabler:puzzle',
+      },
+      {
+        title: 'Community-Driven Development',
+        description:
+          "Blockcore is built on open-source principles, inviting contributions from developers around the world to drive innovation and enhance the platform.",
+        icon: 'tabler:users',
+      },
+      {
+        title: 'Optimized for Performance and Security',
+        description:
+          'Designed with best practices in mind, Blockcore ensures high performance, strong security, and an excellent user experience.',
+        icon: 'tabler:shield-check',
+      },
+    ]}
+  />
 
   <!-- Content Widget **************** -->
 
   <Content
     isReversed
-    tagline="Inside template"
-    title="Blockcore's Blueprint: Fun Meets Functionality!"
+    tagline="Blockcore Platform"
+    title="Blockcore's Blueprint: Building the Future of Decentralization"
     items={[
       {
-        title: 'Built on top of Astro 4.0',
+        title: 'Powered by Open-Source',
         description:
-          'Benefiting from the performance and developer-friendly features of this modern static site generator.',
+          'Benefit from a transparent and community-driven development process that prioritizes security, innovation, and collaboration.',
       },
       {
-        title: 'Styled using Tailwind CSS',
+        title: 'Designed for Developers',
         description:
-          'Facilitating rapid design and consistent styling with this highly popular utility-first CSS framework.',
+          'Blockcore offers a development environment optimized for efficiency, with all the tools you need to build and deploy decentralized applications.',
       },
       {
-        title: 'Cross-browser compatibility',
+        title: 'Cross-Chain Compatibility',
         description:
-          'Ensure your website looks and functions consistently across various web browsers, delivering a seamless experience to all users.',
+          'Easily integrate with multiple blockchains, ensuring broad compatibility and interoperability across the decentralized ecosystem.',
       },
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Colorful Image',
+      alt: 'Blockcore Blueprint',
     }}
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Building on modern foundations</h3>
-      Gain a competitive advantage by incorporating industry leading practices
+      Gain a competitive advantage by incorporating industry-leading practices in blockchain development.
     </Fragment>
 
     <Fragment slot="bg">
@@ -139,31 +135,31 @@ const metadata = {
     isAfterContent
     items={[
       {
-        title: 'High level of customization',
-        description: `Tailor the template effortlessly to match your brand's identity and requirements, making your website distinct and saving you time.`,
+        title: 'High Customization Potential',
+        description: `Tailor the Blockcore platform to match your project's specific needs, ensuring a unique and personalized blockchain experience.`,
       },
       {
-        title: 'Multiple layout possibilities',
+        title: 'Multiple Deployment Options',
         description:
-          'Explore various layout options to find the structure that best presents your content, enhancing user engagement and navigation.',
+          'Deploy your blockchain applications across various environments with ease, from cloud services to on-premise setups.',
       },
       {
-        title: 'Fully responsive design',
+        title: 'Fully Responsive Design',
         description:
-          "Ensure your website's optimal performance on various devices and screen sizes, providing a consistent and enjoyable user experience.",
+          "Ensure your decentralized applications perform optimally on all devices, providing a consistent and user-friendly experience.",
       },
       {
-        title: 'Integration of media',
+        title: 'Integration of Advanced Features',
         description:
-          'Seamlessly incorporate images, videos, and multimedia elements that enhance your content and engage visitors effectively.',
+          'Leverage Blockcore’s advanced features, such as decentralized identities and web nodes, to enhance your application’s functionality.',
       },
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
-      alt: 'Blueprint Image',
+      alt: 'Blockcore Deployment',
     }}
   >
-    <Fragment slot="content">Ensure your online presence truly represents you.</Fragment>
+    <Fragment slot="content">Elevate your blockchain projects with Blockcore’s cutting-edge tools and resources.</Fragment>
 
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
@@ -177,31 +173,31 @@ const metadata = {
     isAfterContent
     items={[
       {
-        title: 'Enhanced user engagement',
+        title: 'Enhanced Developer Experience',
         description:
-          'Captivate your audience with interactive elements, intuitive navigation, and visually appealing layouts, encouraging longer visits.',
+          'Blockcore’s intuitive interface and comprehensive documentation make it easier than ever to develop, deploy, and maintain your blockchain projects.',
       },
       {
-        title: 'Continuous improvement',
+        title: 'Continuous Platform Enhancements',
         description:
-          'Ensure your website stays aligned with the latest trends and technologies through regular updates and enhancements.',
+          'Benefit from regular updates and new features that keep Blockcore at the forefront of blockchain technology.',
       },
       {
-        title: 'Time and resource efficiency',
+        title: 'Efficiency and Scalability',
         description:
-          'Skip the time-consuming process of building a website from scratch and launch your online presence sooner with Blockcore.',
+          'Reduce development time and resource costs with Blockcore’s streamlined processes, while ensuring your projects scale as needed.',
       },
       {
-        title: 'Community support',
-        description: `Join the growing Blockcore community for insights, resources, and assistance, ensuring you're never alone on your web development journey.`,
+        title: 'Strong Community Support',
+        description: `Join the growing Blockcore community to access a wealth of knowledge, resources, and peer support, ensuring you’re always backed by a network of experts.`,
       },
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1611462985358-60d3498e0364?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Astronauts Image',
+      alt: 'Blockcore Developers',
     }}
   >
-    <Fragment slot="content">Designed to foster growth and success.</Fragment>
+    <Fragment slot="content">Designed to empower developers and foster innovation.</Fragment>
 
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
@@ -211,24 +207,24 @@ const metadata = {
   <!-- Steps Widget ****************** -->
 
   <Steps
-    title="Get your dream website up and running in no time with Blockcore."
+    title="Launch Your Blockchain Project with Blockcore in Just a Few Steps"
     items={[
       {
         title: 'Step 1: <span class="font-medium">Download</span>',
         description:
-          "Kickstart with GitHub! Either fork the Blockcore template or simply click 'Use this template'. Your canvas awaits, ready for your digital masterpiece. In just a few clicks, you've already set the foundation.",
+          "Start by cloning the Blockcore repository from GitHub or using our template to kickstart your project. In just a few clicks, you’re ready to build.",
         icon: 'tabler:package',
       },
       {
-        title: 'Step 2: <span class="font-medium">Add content</span>',
+        title: 'Step 2: <span class="font-medium">Add Content</span>',
         description:
-          "Pour your vision into it. Add images, text, and all that jazz to breathe life into your digital space. Remember, it's the content that tells your story, so make it captivating.",
+          "Add your unique content, whether it's a new blockchain protocol or a decentralized application. Customize it to fit your vision.",
         icon: 'tabler:letter-case',
       },
       {
-        title: 'Step 3: <span class="font-medium">Customize styles</span>',
+        title: 'Step 3: <span class="font-medium">Customize Styles</span>',
         description:
-          'Give it your personal touch. Tailor colors, fonts, and layouts until it feels just right. Your unique flair, amplified by Blockcore! Precision in design ensures a seamless user experience.',
+          'Refine the appearance and functionality of your project using Blockcore’s flexible tools, ensuring it aligns with your brand and goals.',
         icon: 'tabler:paint',
       },
       {
@@ -238,20 +234,20 @@ const metadata = {
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Steps image',
+      alt: 'Blockcore Steps',
     }}
   />
 
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Most used projects"
+    title="Blockcore Projects"
     subtitle="Explore some of the innovative projects our community is developing"
     tagline="Projects"
     items={[
       {
         title: 'Angor',
-        description: "Angor is a decentralized crowdfunding platform built on Bitcoin and uses Nostr for enhanced security and transparency.",
+        description: "Angor is a decentralized crowdfunding platform built on Bitcoin and utilizes Nostr for enhanced security and transparency.",
         icon: 'flat-color-icons:template',
       },
       {
@@ -267,7 +263,7 @@ const metadata = {
       },
       {
         title: 'Explorer',
-        description: "Individual chains that builds on Blockcore, can run this explorer for their own chain, without the multi-chain capability.",
+        description: "Individual chains that build on Blockcore can run this explorer for their own chain, without the multi-chain capability.",
         icon: 'flat-color-icons:document',
       },
       {
@@ -276,7 +272,7 @@ const metadata = {
         icon: 'flat-color-icons:advertising',
       },
       {
-        title: 'ddns', 
+        title: 'Blockcore DNS', 
         description: 'Manage domain names efficiently with Blockcore DNS, providing dynamic and decentralized DNS services.',
         icon: 'flat-color-icons:currency-exchange',
       },
@@ -286,7 +282,7 @@ const metadata = {
         icon: 'flat-color-icons:voice-presentation',
       },
       {
-        title: 'Blockcore Tool',
+        title: 'Blockcore Tools',
         description: "Enhances your Blockcore experience with various utilities, including a Genesis Block Generator for blockchain creation.",
         icon: 'flat-color-icons:voice-presentation',
       },
@@ -305,50 +301,49 @@ const metadata = {
   <!-- HighlightedPosts Widget ******* -->
 
   <BlogLatestPosts
-    title="Find out more content in our Blog"
-    information={`The blog is used to display Blockcore documentation.
-                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
-                        Astro is a very interesting technology. Thanks.
-                `}
+    title="Explore More in Our Blog"
+    information={`Our blog is your gateway to understanding Blockcore's ecosystem.
+                        Discover in-depth articles, tutorials, and insights that will guide you in creating, managing, and optimizing your blockchain projects using Blockcore’s tools and technologies.
+                        Join us on the journey to decentralization!`}
   />
 
   <!-- FAQs Widget ******************* -->
 
   <FAQs
     title="Frequently Asked Questions"
-    subtitle="Dive into the following questions to gain insights into the powerful features that Blockcore offers and how it can elevate your web development journey."
+    subtitle="Dive into these questions to gain insights into the powerful features that Blockcore offers and how it can elevate your blockchain development journey."
     tagline="FAQs"
     classes={{ container: 'max-w-6xl' }}
     items={[
       {
-        title: 'Why Blockcore?',
+        title: 'Why should I choose Blockcore?',
         description:
-          "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
+          "Blockcore offers a comprehensive and open-source platform that empowers developers to create scalable and secure decentralized applications and blockchains with ease. Our community-driven approach ensures constant innovation and support.",
       },
       {
-        title: 'What do I need to start?',
+        title: 'What do I need to start with Blockcore?',
         description:
-          'Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.',
+          'Getting started with Blockcore is easy. All you need is a basic understanding of blockchain technology, and access to our GitHub repository where you can download and customize the tools to fit your needs.',
       },
       {
-        title: 'How to install the Astro + Tailwind CSS template?',
+        title: 'How do I deploy my first Blockcore project?',
         description:
-          "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.",
+          "Deploying a Blockcore project is straightforward. Simply clone the repository, customize it according to your project requirements, and follow the deployment instructions in our documentation.",
       },
       {
-        title: "What's something that you don't understand?",
+        title: "How can I contribute to Blockcore?",
         description:
-          "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
+          "Blockcore is an open-source project, and we welcome contributions from the community. Whether you're a developer, designer, or writer, there's a place for you to contribute. Check out our GitHub page to get started.",
       },
       {
-        title: 'What is something that you would like to try again?',
+        title: 'What resources are available for learning Blockcore?',
         description:
-          "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
+          "Our documentation and blog are great starting points for learning about Blockcore. Additionally, you can join our community on Discord to connect with other developers and get answers to your questions.",
       },
       {
-        title: 'If you could only ask one question to each person you meet, what would that question be?',
+        title: 'Can I use Blockcore for enterprise-level projects?',
         description:
-          "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
+          "Absolutely! Blockcore is designed to be scalable and secure, making it suitable for both small and large-scale projects, including enterprise applications.",
       },
     ]}
   />
@@ -378,12 +373,11 @@ const metadata = {
     ]}
   >
     <Fragment slot="title">
-      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      Ready to Build with Blockcore?
     </Fragment>
 
     <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
+      Join the future of decentralization with Blockcore’s open-source platform. Start building your blockchain project today!
     </Fragment>
   </CallToAction>
 </Layout>
