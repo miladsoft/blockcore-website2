@@ -3,165 +3,161 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
+      text: 'Home',
+      href: getPermalink('/'),
+    },
+    {
+      text: 'Platform',
       links: [
         {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
+          text: 'Node Software',
+          href: getPermalink('/platform/node-software'),
         },
         {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
+          text: 'Explorer',
+          href: getPermalink('/platform/explorer'),
         },
         {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
+          text: 'Indexer',
+          href: getPermalink('/platform/indexer'),
         },
         {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
+          text: 'Wallet',
+          href: getPermalink('/platform/wallet'),
+        },
+        {
+          text: 'Decentralized Identifiers (DIDs)',
+          href: getPermalink('/platform/dids'),
+        },
+        {
+          text: 'Decentralized Web Nodes (DWNs)',
+          href: getPermalink('/platform/dwns'),
         },
       ],
     },
     {
-      text: 'Pages',
+      text: 'Developers',
       links: [
         {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
+          text: 'Documentation',
+          href: 'https://docs.blockcore.net',
         },
         {
-          text: 'Services',
-          href: getPermalink('/services'),
+          text: 'API Reference',
+          href: getPermalink('/developers/api-reference'),
         },
         {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
+          text: 'SDKs',
+          href: getPermalink('/developers/sdks'),
         },
         {
-          text: 'About us',
+          text: 'GitHub',
+          href: 'https://github.com/block-core',
+          target: '_blank',
+        },
+        {
+          text: 'Community Forum',
+          href: getPermalink('/community/forum'),
+        },
+      ],
+    },
+    {
+      text: 'Community',
+      links: [
+        {
+          text: 'Blog',
+          href: getBlogPermalink(),
+        },
+        {
+          text: 'Events',
+          href: getPermalink('/community/events'),
+        },
+        {
+          text: 'Contribute',
+          href: getPermalink('/community/contribute'),
+        },
+        {
+          text: 'Discord',
+          href: 'https://www.blockcore.net/discord',
+          target: '_blank',
+        },
+        {
+          text: 'Social Media',
+          href: getPermalink('/community/social-media'),
+        },
+      ],
+    },
+    {
+      text: 'About',
+      links: [
+        {
+          text: 'About Us',
           href: getPermalink('/about'),
+        },
+        {
+          text: 'Team',
+          href: getPermalink('/about/team'),
+        },
+        {
+          text: 'Careers',
+          href: getPermalink('/about/careers'),
+        },
+        {
+          text: 'Press',
+          href: getPermalink('/about/press'),
         },
         {
           text: 'Contact',
           href: getPermalink('/contact'),
         },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
       ],
-    },
-    {
-      text: 'Landing',
-      links: [
-        {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
-        },
-        {
-          text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
-        },
-        {
-          text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
-        },
-        {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
-        },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
-        },
-      ],
-    },
-    {
-      text: 'Blog',
-      links: [
-        {
-          text: 'Blog List',
-          href: getBlogPermalink(),
-        },
-        {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
-        },
-        {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
-        },
-        {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
-        },
-        {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
-        },
-      ],
-    },
-    {
-      text: 'Widgets',
-      href: '#',
     },
   ],
-  actions: [{ text: 'Github', href: 'https://github.com/block-core', target: '_blank' }],
+  actions: [{ text: 'GitHub', href: 'https://github.com/block-core', target: '_blank' }],
 };
+
 
 export const footerData = {
   links: [
     {
-      title: 'Product',
-      links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
-      ],
-    },
-    {
       title: 'Platform',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'Blockcore Desktop', href: '#' },
+        { text: 'Node Software', href: getPermalink('/platform/node-software') },
+        { text: 'Explorer', href: getPermalink('/platform/explorer') },
+        { text: 'Indexer', href: getPermalink('/platform/indexer') },
+        { text: 'Wallet', href: getPermalink('/platform/wallet') },
+        { text: 'DIDs', href: getPermalink('/platform/dids') },
+        { text: 'DWNs', href: getPermalink('/platform/dwns') },
       ],
     },
     {
-      title: 'Support',
+      title: 'Developers',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
+        { text: 'Documentation', href: 'https://docs.blockcore.net' },
+        { text: 'API Reference', href: getPermalink('/developers/api-reference') },
+        { text: 'SDKs', href: getPermalink('/developers/sdks') },
+        { text: 'GitHub', href: 'https://github.com/block-core' },
+        { text: 'Community Forum', href: getPermalink('/community/forum') },
+      ],
+    },
+    {
+      title: 'Community',
+      links: [
+        { text: 'Blog', href: getBlogPermalink() },
+        { text: 'Events', href: getPermalink('/community/events') },
+        { text: 'Contribute', href: getPermalink('/community/contribute') },
+        { text: 'Discord', href: 'https://www.blockcore.net/discord' },
+        { text: 'Social Media', href: getPermalink('/community/social-media') },
       ],
     },
     {
       title: 'Company',
       links: [
-        { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
+        { text: 'About Us', href: getPermalink('/about') },
+        { text: 'Team', href: getPermalink('/about/team') },
+        { text: 'Careers', href: getPermalink('/about/careers') },
+        { text: 'Press', href: getPermalink('/about/press') },
+        { text: 'Contact', href: getPermalink('/contact') },
       ],
     },
   ],
@@ -170,13 +166,12 @@ export const footerData = {
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/block-core' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://x.com/blockcoredev' },
+    { ariaLabel: 'GitHub', icon: 'tabler:brand-github', href: 'https://github.com/block-core' },
+    { ariaLabel: 'Discord', icon: 'tabler:brand-discord', href: 'https://www.blockcore.net/discord' },
+    { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: 'https://twitter.com/blockcoredev' },
   ],
   footNote: `
-      All rights reserved.
+      © ${new Date().getFullYear()} Blockcore. All rights reserved.
   `,
 };
