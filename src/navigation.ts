@@ -146,8 +146,6 @@ export const footerData = {
       links: [
         { text: 'About Us', href: getPermalink('/about') },
         { text: 'Team', href: getPermalink('/about/team') },
-        { text: 'Careers', href: getPermalink('/about/careers') },
-        { text: 'Press', href: getPermalink('/about/press') },
         { text: 'Contact', href: getPermalink('/contact') },
       ],
     },
