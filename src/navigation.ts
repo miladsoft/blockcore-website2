@@ -99,14 +99,6 @@ export const headerData = {
           href: getPermalink('/about/team'),
         },
         {
-          text: 'Careers',
-          href: getPermalink('/about/careers'),
-        },
-        {
-          text: 'Press',
-          href: getPermalink('/about/press'),
-        },
-        {
           text: 'Contact',
           href: getPermalink('/contact'),
         },
