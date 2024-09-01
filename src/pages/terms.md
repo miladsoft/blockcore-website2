@@ -3,8 +3,6 @@ title: 'Terms and Conditions'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Last updated_: August 31, 2024
-
 Please read these terms and conditions carefully before using Our Service.
 
 ## Interpretation and Definitions
@@ -118,3 +116,6 @@ By continuing to access or use Our Service after those revisions become effectiv
 If you have any questions about these Terms and Conditions, You can contact us:
 
 - By email: post@blockcore.net
+
+
+_Last updated_: August 31, 2024

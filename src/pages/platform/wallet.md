@@ -3,8 +3,6 @@ title: 'Blockcore Wallet'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Last updated_: August 31, 2024
-
 ## Blockcore Wallet
 
 The **Blockcore Wallet** is a versatile, non-custodial, open-source cryptocurrency wallet designed to provide secure and easy management of your digital assets. Built on the principles of decentralization, the wallet ensures that you maintain full control over your private keys and funds while offering a seamless and intuitive user experience.
@@ -101,3 +99,5 @@ Join the Blockcore community to connect with other users, developers, and contri
 ### Conclusion
 
 Blockcore Wallet is a powerful, secure, and user-friendly tool for managing your digital assets. With its open-source nature, community-driven development, and robust security features, it is the ideal choice for both individual users and organizations seeking a reliable wallet solution. Start your journey with Blockcore Wallet today and experience the future of decentralized finance.
+
+_Last updated_: August 31, 2024

@@ -3,8 +3,6 @@ title: 'Blockcore Notes - Nostr Client'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Last updated_: August 31, 2024
-
 ## What is Blockcore Notes?
 
 Blockcore Notes is an open-source client built for the Nostr protocol, enabling decentralized social interactions and communication. Nostr, short for "Notes and Other Stuff Transmitted by Relays," is a decentralized protocol that facilitates censorship-resistant social networking and communication. Blockcore Notes provides a user-friendly interface for interacting with the Nostr network, allowing users to post notes, follow other users, and engage in conversations without relying on centralized servers.
@@ -68,3 +66,5 @@ Blockcore Notes is an open-source project, and we welcome contributions from the
 Blockcore Notes represents a significant step forward in decentralized communication. By leveraging the Nostr protocol, it offers a secure, private, and censorship-resistant platform for social interactions. Whether you’re looking to escape centralized social media platforms or just want more control over your online communication, Blockcore Notes is the tool for you.
 
 Join the future of decentralized communication with Blockcore Notes by visiting [notes.blockcore.net](https://notes.blockcore.net)!
+
+_Last updated_: August 31, 2024

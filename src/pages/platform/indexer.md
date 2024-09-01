@@ -3,8 +3,6 @@ title: 'Blockcore Indexer'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Last updated_: August 31, 2024
-
 ## Blockcore Indexer
 
 The Blockcore Indexer is a robust and flexible blockchain indexing service designed to provide high-performance access to blockchain data. It plays a crucial role in the Blockcore ecosystem by indexing blockchain transactions, blocks, and addresses, making it easier for developers to query and interact with the blockchain efficiently.
@@ -71,3 +69,4 @@ Blockcore Indexer is a powerful and flexible tool designed to meet the needs of 
 
 Stay connected with the latest developments by following the [Blockcore GitHub repository](https://github.com/block-core/blockcore-indexer) and joining the community. Together, we can build a more efficient and accessible blockchain ecosystem.
 
+_Last updated_: August 31, 2024

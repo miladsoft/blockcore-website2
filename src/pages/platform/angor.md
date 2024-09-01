@@ -3,8 +3,6 @@ title: 'Angor - Decentralized Crowdfunding'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Last updated_: August 31, 2024
-
 ## What is Angor?
 
 Angor is a decentralized crowdfunding platform designed exclusively for Bitcoin. It enables founders to raise capital directly from investors without intermediaries, using the power of Bitcoin and decentralized protocols like Nostr. Angor provides a secure, transparent, and efficient way to fund innovative projects while giving investors control over their contributions.
@@ -76,3 +74,5 @@ Angor is supported by a vibrant community of developers and users. Join our [com
 ## Download Angor
 
 Ready to start your journey with Angor? Download the Angor software from our [releases page](https://github.com/block-core/angor/releases) and begin exploring the future of decentralized crowdfunding today.
+
+_Last updated_: August 31, 2024

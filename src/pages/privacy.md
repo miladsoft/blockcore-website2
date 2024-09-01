@@ -3,8 +3,6 @@ title: 'Privacy Policy'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Last updated_: August 31, 2024
-
 ## Privacy Policy
 
 At Blockcore, we are committed to safeguarding your privacy and ensuring that your personal data is protected. This Privacy Policy outlines how we handle information when you use our Wallet, Website, and Extensions. By accessing and using our services, you agree to the practices described in this policy.
@@ -56,3 +54,5 @@ If you have any questions or concerns about this Privacy Policy or our practices
 - By email: post@blockcore.net
 
 This Privacy Policy is designed to be clear and straightforward, reflecting our commitment to your privacy. We encourage you to read it carefully and to reach out to us with any questions you may have.
+
+_Last updated_: August 31, 2024

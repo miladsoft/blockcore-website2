@@ -3,8 +3,6 @@ title: 'Ariton - Decentralized Community'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Last updated_: August 31, 2024
-
 ## What is Ariton?
 
 Ariton is a revolutionary decentralized platform designed to empower individuals and communities by giving them control over their identities, data, and digital interactions. Unlike traditional applications that collect and monetize user data, Ariton is built on free and open standards, ensuring that your data remains yours. Ariton provides a robust framework for creating and managing communities, enabling participants to thrive in both online and offline environments.
@@ -68,3 +66,6 @@ A: Users can earn money by providing services such as registries, data services,
 ## Conclusion
 
 Ariton represents the future of decentralized communities, providing a secure, private, and user-centric platform for building and managing digital interactions. Whether you are a community leader, a business owner, or an individual seeking more control over your digital life, Ariton offers the tools and technologies to help you succeed in a decentralized world.
+
+_Last updated_: August 31, 2024
+

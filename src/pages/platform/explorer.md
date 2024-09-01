@@ -3,8 +3,6 @@ title: 'Blockcore Explorer'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Last updated_: August 31, 2024
-
 ## Blockcore Explorer
 
 Blockcore Explorer is a comprehensive, open-source blockchain explorer designed to provide detailed insights into blockchain networks built on the Blockcore platform. It offers a user-friendly interface and powerful tools for visualizing and analyzing blockchain data, making it an essential tool for developers, users, and researchers in the blockchain space.
@@ -70,3 +68,5 @@ Blockcore Explorer is an open-source project, and contributions from the communi
 Blockcore Explorer is an essential tool for anyone working with blockchain technology. Its user-friendly interface, real-time data, and powerful analysis tools make it the ideal solution for monitoring and exploring blockchain networks. Whether you're a developer, researcher, or blockchain enthusiast, Blockcore Explorer provides the insights you need to succeed in the world of decentralized technology.
 
 Stay connected with the latest developments by following the [Blockcore GitHub repository](https://github.com/block-core/blockcore-explorer) and joining the community. Together, we can build a more transparent and accessible blockchain ecosystem.
+
+_Last updated_: August 31, 2024
