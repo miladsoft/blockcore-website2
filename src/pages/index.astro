@@ -22,26 +22,27 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Get Started',
-        href: 'https://github.com/block-core',
-        target: '_blank',
-        icon: 'tabler:download',
-      },
-      { text: 'Learn More', href: '#features' },
-    ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'Blockcore Hero Image' }}
-  >
-    <Fragment slot="title">
-      Empowering the Future of Decentralization
-    </Fragment>
+  actions={[
+    {
+      variant: 'primary',
+      text: 'Get Started',
+      href: 'https://github.com/block-core',
+      target: '_blank',
+      icon: 'tabler:download',
+    },
+    { text: 'Learn More', href: '#features' },
+  ]}
+  image={{ src: '~/assets/images/hero-image.png', alt: 'Blockcore Hero Image' }}
+>
+  <Fragment slot="title">
+    Decentralizing Everything
+  </Fragment>
 
-    <Fragment slot="subtitle">
-      <span class="font-semibold">Blockcore</span> provides the foundation for building the decentralized future. Our platform offers the essential tools to transform your vision into reality, ensuring security, scalability, and innovation in every step.
-    </Fragment>
-  </Hero>
+  <Fragment slot="subtitle">
+    At <span class="font-semibold">Blockcore</span>, we build products that drive the decentralized future forward.
+  </Fragment>
+</Hero>
+
 
 
   <!-- Features Widget *************** -->
@@ -276,28 +277,14 @@ const metadata = {
       {
         title: 'Blockcore Node',
         description: "Powering the network – Blockcore Node drives blockchain operations securely and efficiently.",
-        icon: 'flat-color-icons:advertising',
-      },
-      {
-        title: 'Blockcore DNS', 
-        description: 'Manage domain names efficiently with Blockcore DNS, providing dynamic and decentralized DNS services.',
         icon: 'flat-color-icons:currency-exchange',
       },
       {
         title: 'Blockcore Notes',
         description: "Share your thoughts and interact with others in a fully transparent and open manner that is not restricted by any boundaries.",
         icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Blockcore Tools',
-        description: "Enhances your Blockcore experience with various utilities, including a Genesis Block Generator for blockchain creation.",
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Blockcore Template',
-        description: "Templates and samples for building new blockchain applications and coins using the Blockcore platform.",
-        icon: 'flat-color-icons:voice-presentation',
-      },
+      }
+
     ]}
   >
     <Fragment slot="bg">
@@ -317,43 +304,44 @@ const metadata = {
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="Frequently Asked Questions"
-    subtitle="Dive into these questions to gain insights into the powerful features that Blockcore offers and how it can elevate your blockchain development journey."
-    tagline="FAQs"
-    classes={{ container: 'max-w-6xl' }}
-    items={[
-      {
-        title: 'Why should I choose Blockcore?',
-        description:
-          "Blockcore offers a comprehensive and open-source platform that empowers developers to create scalable and secure decentralized applications and blockchains with ease. Our community-driven approach ensures constant innovation and support.",
-      },
-      {
-        title: 'What do I need to start with Blockcore?',
-        description:
-          'Getting started with Blockcore is easy. All you need is a basic understanding of blockchain technology, and access to our GitHub repository where you can download and customize the tools to fit your needs.',
-      },
-      {
-        title: 'How do I deploy my first Blockcore project?',
-        description:
-          "Deploying a Blockcore project is straightforward. Simply clone the repository, customize it according to your project requirements, and follow the deployment instructions in our documentation.",
-      },
-      {
-        title: "How can I contribute to Blockcore?",
-        description:
-          "Blockcore is an open-source project, and we welcome contributions from the community. Whether you're a developer, designer, or writer, there's a place for you to contribute. Check out our GitHub page to get started.",
-      },
-      {
-        title: 'What resources are available for learning Blockcore?',
-        description:
-          "Our documentation and blog are great starting points for learning about Blockcore. Additionally, you can join our community on Discord to connect with other developers and get answers to your questions.",
-      },
-      {
-        title: 'Can I use Blockcore for enterprise-level projects?',
-        description:
-          "Absolutely! Blockcore is designed to be scalable and secure, making it suitable for both small and large-scale projects, including enterprise applications.",
-      },
-    ]}
-  />
+  title="Frequently Asked Questions"
+  subtitle="Explore these FAQs to learn more about Blockcore’s products and how they can enhance your decentralized projects."
+  tagline="FAQs"
+  classes={{ container: 'max-w-6xl' }}
+  items={[
+    {
+      title: 'What is the Blockcore Blockchain platform?',
+      description:
+        "Blockcore's Blockchain platform is a robust, open-source solution for building custom blockchains. It offers flexibility, scalability, and a developer-friendly environment for creating secure decentralized applications.",
+    },
+    {
+      title: 'How does Angor improve crowdfunding?',
+      description:
+        "Angor leverages Bitcoin and Nostr to provide a secure and transparent decentralized crowdfunding platform, allowing investors to maintain control of their funds with innovative time-lock contracts.",
+    },
+    {
+      title: 'What is Ariton and how can it help me?',
+      description:
+        "Ariton is a decentralized platform for building and managing communities. It empowers users to own their data and identities, offering a secure and private environment for social interaction and economic activities.",
+    },
+    {
+      title: 'How can I use Blockcore Notes?',
+      description:
+        "Blockcore Notes is a decentralized note-taking app that uses Nostr and Web5 for secure and private storage of your notes. It’s perfect for users who value control over their personal data.",
+    },
+    {
+      title: 'Can I integrate Blockcore with other blockchains?',
+      description:
+        "Yes, Blockcore’s platform is designed with cross-chain compatibility in mind, allowing you to integrate and interact with multiple blockchains seamlessly.",
+    },
+    {
+      title: 'How can I get involved with Blockcore development?',
+      description:
+        "You can contribute to Blockcore by joining our GitHub community, where developers, designers, and enthusiasts collaborate on various projects. We welcome all contributions, big or small.",
+    },
+  ]}
+/>
+
 
   <!-- Stats Widget ****************** -->
 
@@ -369,22 +357,24 @@ const metadata = {
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Get started',
-        href: 'https://github.com/block-core',
-        target: '_blank',
-        icon: 'tabler:download',
-      },
-    ]}
-  >
-    <Fragment slot="title">
-      Ready to Build with Blockcore?
-    </Fragment>
+  actions={[
+    {
+      variant: 'primary',
+      text: 'Explore on GitHub',
+      href: 'https://github.com/block-core',
+      target: '_blank',
+      icon: 'tabler:brand-github',
+    },
+  ]}
+>
+  <Fragment slot="title">
+    Discover Blockcore on GitHub
+  </Fragment>
 
-    <Fragment slot="subtitle">
-      Join the future of decentralization with Blockcore’s open-source platform. Start building your blockchain project today!
-    </Fragment>
-  </CallToAction>
+  <Fragment slot="subtitle">
+    Explore our open-source products and join the decentralized revolution.
+  </Fragment>
+</CallToAction>
+
+
 </Layout>
