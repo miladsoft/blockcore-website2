@@ -47,22 +47,10 @@ export const headerData = {
           href: 'https://docs.blockcore.net',
         },
         {
-          text: 'API Reference',
-          href: getPermalink('/developers/api-reference'),
-        },
-        {
-          text: 'SDKs',
-          href: getPermalink('/developers/sdks'),
-        },
-        {
           text: 'GitHub',
           href: 'https://github.com/block-core',
           target: '_blank',
-        },
-        {
-          text: 'Community Forum',
-          href: getPermalink('/community/forum'),
-        },
+        }
       ],
     },
     {
@@ -72,23 +60,11 @@ export const headerData = {
           text: 'Blog',
           href: getBlogPermalink(),
         },
-        {
-          text: 'Events',
-          href: getPermalink('/community/events'),
-        },
-        {
-          text: 'Contribute',
-          href: getPermalink('/community/contribute'),
-        },
-        {
+         {
           text: 'Discord',
           href: 'https://www.blockcore.net/discord',
           target: '_blank',
-        },
-        {
-          text: 'Social Media',
-          href: getPermalink('/community/social-media'),
-        },
+        } 
       ],
     },
     {
@@ -118,31 +94,23 @@ export const footerData = {
     {
       title: 'Platform',
       links: [
-        { text: 'Node Software', href: getPermalink('/platform/node-software') },
-        { text: 'Explorer', href: getPermalink('/platform/explorer') },
-        { text: 'Indexer', href: getPermalink('/platform/indexer') },
-        { text: 'Wallet', href: getPermalink('/platform/wallet') },
-        { text: 'DWNs', href: getPermalink('/platform/dwns') },
+        { text: 'Angor', href: getPermalink('/platform/angor') },
+        { text: 'Ariton', href: getPermalink('/platform/ariton') },
+        { text: 'Notes', href: getPermalink('/platform/notes') },
       ],
     },
     {
       title: 'Developers',
       links: [
         { text: 'Documentation', href: 'https://docs.blockcore.net' },
-        { text: 'API Reference', href: getPermalink('/developers/api-reference') },
-        { text: 'SDKs', href: getPermalink('/developers/sdks') },
         { text: 'GitHub', href: 'https://github.com/block-core' },
-        { text: 'Community Forum', href: getPermalink('/community/forum') },
       ],
     },
     {
       title: 'Community',
       links: [
         { text: 'Blog', href: getBlogPermalink() },
-        { text: 'Events', href: getPermalink('/community/events') },
-        { text: 'Contribute', href: getPermalink('/community/contribute') },
         { text: 'Discord', href: 'https://www.blockcore.net/discord' },
-        { text: 'Social Media', href: getPermalink('/community/social-media') },
       ],
     },
     {

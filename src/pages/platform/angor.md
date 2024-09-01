@@ -1,5 +1,5 @@
 ---
-title: 'How Angor Works'
+title: 'Angor - Decentralized Crowdfunding'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
