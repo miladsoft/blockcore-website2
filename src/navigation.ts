@@ -10,6 +10,18 @@ export const headerData = {
       text: 'Platform',
       links: [
         {
+          text: 'Angor',
+          href: getPermalink('/platform/angor'),
+        },
+        {
+          text: 'Ariton',
+          href: getPermalink('/platform/ariton'),
+        },
+        {
+          text: 'Notes',
+          href: getPermalink('/platform/notes'),
+        },
+        {
           text: 'Node Software',
           href: getPermalink('/platform/node-software'),
         },
@@ -24,15 +36,7 @@ export const headerData = {
         {
           text: 'Wallet',
           href: getPermalink('/platform/wallet'),
-        },
-        {
-          text: 'Decentralized Identifiers (DIDs)',
-          href: getPermalink('/platform/dids'),
-        },
-        {
-          text: 'Decentralized Web Nodes (DWNs)',
-          href: getPermalink('/platform/dwns'),
-        },
+        }
       ],
     },
     {
