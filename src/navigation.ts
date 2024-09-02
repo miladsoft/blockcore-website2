@@ -20,11 +20,12 @@ export const headerData = {
         {
           text: 'Notes',
           href: getPermalink('/platform/notes'),
-        },
-        {
-          text: 'Node Software',
-          href: getPermalink('/platform/node-software'),
-        },
+        }
+      ],
+    },
+    {
+      text: 'Tools',
+      links: [
         {
           text: 'Explorer',
           href: getPermalink('/platform/explorer'),
@@ -32,6 +33,10 @@ export const headerData = {
         {
           text: 'Indexer',
           href: getPermalink('/platform/indexer'),
+        },
+        {
+          text: 'Node Software',
+          href: getPermalink('/platform/node-software'),
         },
         {
           text: 'Wallet',
