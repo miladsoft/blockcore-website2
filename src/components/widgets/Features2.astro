@@ -9,7 +9,6 @@ const {
   subtitle = await Astro.slots.render('subtitle'),
   tagline = await Astro.slots.render('tagline'),
   items = [],
-  columns = 3,
   defaultIcon,
 
   id,
@@ -23,14 +22,11 @@ const {
   <Headline title={title} subtitle={subtitle} tagline={tagline} classes={classes?.headline as Record<string, string>} />
   <ItemGrid2
     items={items}
-    columns={columns}
     defaultIcon={defaultIcon}
     classes={{
-      container: 'gap-4 md:gap-6',
+      container: 'grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6', // 1 column for small screens, 2 columns for medium and larger screens
       panel:
         'rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur border border-[#ffffff29] bg-white dark:bg-slate-900 p-6',
-      // panel:
-      //   "text-center bg-page items-center md:text-left rtl:md:text-right md:items-start p-6 p-6 rounded-md shadow-xl dark:shadow-none dark:border dark:border-slate-800",
       icon: 'w-12 h-12 mb-6 text-primary',
       ...((classes?.items as Record<string, never>) ?? {}),
     }}

@@ -1,8 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
-import ContactUs from '~/components/widgets/Contact.astro';
-import Features2 from '~/components/widgets/Features2.astro';
+ import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
   title: 'Contact',
@@ -14,66 +13,33 @@ const metadata = {
 
   <HeroText tagline="Contact" title="Let's Connect!" />
 
-  <ContactUs
-    id="form"
-    title="Drop us a message today!"
-    subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking  for right there! If not, our support team is delighted to help you."
-    inputs={[
-      {
-        type: 'text',
-        name: 'name',
-        label: 'Name',
-      },
-      {
-        type: 'email',
-        name: 'email',
-        label: 'Email',
-      },
-    ]}
-    textarea={{
-      label: 'Message',
-    }}
-    disclaimer={{
-      label:
-        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
-    }}
-    description="Our support team typically responds within 24 business hours."
-  />
+ 
 
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="We are here to help!"
-    items={[
-      {
-        title: 'General support',
-        description: `Chat with us for inquiries related to account management, website navigation, payment issues, accessing purchased templates or general questions about the website's functionality.`,
-      },
-      {
-        title: 'Contact sales',
-        description:
-          'Chat with us for questions about purchases, customization options, licensing for commercial use, inquiries about specific template, etc.',
-      },
-      {
-        title: 'Technical support',
-        description:
-          'Chat with us when facing issues like template installation, problems editing difficulties, compatibility issues with software or download errors, or other technical challenges related to using the templates.',
-      },
-      {
-        title: 'Phone',
-        description: '+1 (234) 567-890',
-        icon: 'tabler:headset',
-      },
-      {
+  title="We are here to assist you!"
+  items={[
+    {
+      title: 'General support',
+      description: `Connect with us for inquiries related to account management, navigating the website, resolving payment issues, accessing purchased templates, or addressing general questions about the platform.`,
+    } ,
+        {
+      title: 'Technical support',
+      description:
+        'We are here to help you troubleshoot issues like template installation, editing challenges, software compatibility problems, download errors, and other technical matters related to using our templates.',
+    },
+    {
         title: 'Email',
-        description: 'contact@support.com',
+        description: 'For direct support inquiries, reach us via email at <a href="mailto:post@blockcore.net">post@blockcore.net</a>.',
         icon: 'tabler:mail',
       },
       {
-        title: 'Location',
-        description: '1234 Lorem Ipsum St, 12345, Miami, EEUU',
-        icon: 'tabler:map-pin',
+        title: 'Discord',
+        description: 'Join our Discord community for real-time support and discussions: <a href="https://www.blockcore.net/discord" target="_blank">https://www.blockcore.net/discord</a>.',
+        icon: 'tabler:brand-discord',
       },
-    ]}
-  />
+  ]}
+/>
+
 </Layout>
