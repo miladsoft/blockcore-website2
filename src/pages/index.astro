@@ -22,28 +22,23 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-  actions={[
-    {
-      variant: 'primary',
-      text: 'Get Started',
-      href: '#start',
-      icon: 'tabler:download',
-    },
-    { text: 'Learn More', href: 'https://docs.blockcore.net'    ,   target: '_blank',
-    icon: 'tabler:school',},
-  ]}
-  image={{ src: '~/assets/images/hero-image.png', alt: 'Blockcore Hero Image' }}
->
-  <Fragment slot="title">
-    Decentralizing Everything
-  </Fragment>
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Get Started',
+        href: '#start',
+        icon: 'tabler:download',
+      },
+      { text: 'Learn More', href: 'https://docs.blockcore.net', target: '_blank', icon: 'tabler:school' },
+    ]}
+    image={{ src: '~/assets/images/hero-image.png', alt: 'Blockcore Hero Image' }}
+  >
+    <Fragment slot="title"> Decentralizing Everything </Fragment>
 
-  <Fragment slot="subtitle">
-    At <span class="font-semibold">Blockcore</span>, we build products that drive the decentralized future forward.
-  </Fragment>
-</Hero>
-
-
+    <Fragment slot="subtitle">
+      At <span class="font-semibold">Blockcore</span>, we build products that drive the decentralized future forward.
+    </Fragment>
+  </Hero>
 
   <!-- Features Widget *************** -->
 
@@ -92,206 +87,233 @@ const metadata = {
     ]}
   /> -->
 
-<!-- Content Widget **************** -->
+  <!-- Content Widget **************** -->
 
-<Content
-id="start"
-  isReversed
-  tagline="Empower Your Investments with Angor"
-  title="Angor: Decentralized Crowdfunding"
-  items={[
-    {
-      title: 'Trustless Crowdfunding',
-      description:
-        'Angor combines Bitcoin security with Nostr transparency, giving investors control over their funds.',
-    },
-    {
-      title: 'Investor Control',
-      description:
-        'Investors can recover unspent funds anytime, reducing risk and aligning interests with project founders.',
-    },
-    {
-      title: 'Founder Benefits',
-      description:
-        'Streamlined fundraising in a secure, trust-minimized environment.',
-    },
-  ]}
-  image={{
-    src: '~/assets/images/angor.png',
-    alt: 'Angor Crowdfunding',
-  }}
->
-  <Fragment slot="content">
-    Angor sets new standards in decentralized crowdfunding, empowering investors and founders alike.
-  </Fragment>
+  <Content
+    id="start"
+    isReversed
+    tagline="Empower Your Investments with Angor"
+    title="Angor: Decentralized Crowdfunding"
+    items={[
+      {
+        title: 'Trustless Crowdfunding',
+        description:
+          'Angor combines Bitcoin security with Nostr transparency, giving investors control over their funds.',
+      },
+      {
+        title: 'Investor Control',
+        description:
+          'Investors can recover unspent funds anytime, reducing risk and aligning interests with project founders.',
+      },
+      {
+        title: 'Founder Benefits',
+        description: 'Streamlined fundraising in a secure, trust-minimized environment.',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/angor.png',
+      alt: 'Angor Crowdfunding',
+    }}
+  >
+    <Fragment slot="content">
+      Angor sets new standards in decentralized crowdfunding, empowering investors and founders alike.
+    </Fragment>
 
-  <Fragment slot="bg">
-    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-  </Fragment>
-</Content>
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
 
-<!-- Content Widget **************** -->
+  <!-- Content Widget **************** -->
 
-<Content
-  isAfterContent
-  tagline="Build and Own Your Communities"
-  title="Ariton: Connect and Own"
-  items={[
-    {
-      title: 'Freedom to Connect',
-      description: `Create and join communities that align with your passions.`,
-    },
-    {
-      title: 'Own Your Data',
-      description:
-        'Control your identity and data with decentralized ownership.',
-    },
-    {
-      title: 'Community Economy',
-      description:
-        'Monetize your skills and contributions within vibrant communities.',
-    },
-    {
-      title: 'AI-Powered Interactions',
-      description:
-        'Enhance your experience with AI-driven content and community management.',
-    },
-  ]}
-  image={{
-    src: '~/assets/images/ariton.png',
-    alt: 'Ariton Communities',
-  }}
->
-  <Fragment slot="content">Ariton redefines social interaction by empowering you to own your communities and data.</Fragment>
+  <Content
+    isAfterContent
+    tagline="Build and Own Your Communities"
+    title="Ariton: Connect and Own"
+    items={[
+      {
+        title: 'Freedom to Connect',
+        description: `Create and join communities that align with your passions.`,
+      },
+      {
+        title: 'Own Your Data',
+        description: 'Control your identity and data with decentralized ownership.',
+      },
+      {
+        title: 'AI-Powered Interactions',
+        description: 'Enhance your experience with AI-driven content and community management.',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/ariton.png',
+      alt: 'Ariton Communities',
+    }}
+  >
+    <Fragment slot="content"
+      >Ariton redefines social interaction by empowering you to own your communities and data.</Fragment
+    >
 
-  <Fragment slot="bg">
-    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-  </Fragment>
-</Content>
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
 
-<!-- Content Widget **************** -->
+  <!-- Content Widget **************** -->
 
-<Content
-  isReversed
-  isAfterContent
-  tagline="Take Control of Your Notes"
-  title="Notes: Secure and Private"
-  items={[
-    {
-      title: 'Secure Storage',
-      description:
-        'Decentralized storage for your notes using Nostr and Web5.',
-    },
-    {
-      title: 'Cross-Platform Access',
-      description:
-        'Access and control your notes from any device.',
-    },
-    {
-      title: 'Community-Driven',
-      description:
-        'Built with continuous input from the community.',
-    },
-    {
-      title: 'Feature-Rich Environment',
-      description: `Organize and manage your thoughts with advanced features.`,
-    },
-  ]}
-  image={{
-    src: '~/assets/images/notes.png',
-    alt: 'Blockcore Notes',
-  }}
->
-  <Fragment slot="content">Blockcore Notes offers secure, decentralized note-taking with full control over your data.</Fragment>
+  <Content
+    isReversed
+    isAfterContent
+    tagline="Take Control of Your Notes"
+    title="Notes: Secure and Private"
+    items={[
+      {
+        title: 'Secure Storage',
+        description: 'Decentralized storage for your notes using Nostr and Web5.',
+      },
+      {
+        title: 'Cross-Platform Access',
+        description: 'Access and control your notes from any device.',
+      },
+      {
+        title: 'Community-Driven',
+        description: 'Built with continuous input from the community.',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/notes.png',
+      alt: 'Blockcore Notes',
+    }}
+  >
+    <Fragment slot="content"
+      >Blockcore Notes offers secure, decentralized note-taking with full control over your data.</Fragment
+    >
 
-  <Fragment slot="bg">
-    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-  </Fragment>
-</Content>
-
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
 
   <!-- Steps Widget ****************** -->
 
   <Steps
-  title="Explore the Benefits of Blockchain with Blockcore"
-  items={[
-    {
-      title: 'Transparency & Trust',
-      description:
-        "Blockchain technology provides unmatched transparency by creating an immutable record of transactions, fostering trust among all participants.",
-      icon: 'tabler:eye',
-    },
-    {
-      title: 'Enhanced Security',
-      description:
-        "Benefit from robust security with cryptographic protocols that safeguard your data and transactions against tampering and fraud.",
-      icon: 'tabler:shield-lock',
-    },
-    {
-      title: 'Decentralization & Autonomy',
-      description:
-        "Operate with autonomy through decentralized networks, reducing reliance on central authorities and intermediaries.",
-      icon: 'tabler:network',
-    },
-    {
-      title: 'Efficiency & Speed',
-      description:
-        'Streamline processes and reduce transaction times with blockchain’s automated, real-time operations, enhancing overall efficiency.',
-      icon: 'tabler:clock',
-    },
-  ]}
-  image={{
-    src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-    alt: 'Blockchain Benefits',
-  }}
-/>
-
+    title="Explore the Benefits of Blockchain with Blockcore"
+    items={[
+      {
+        title: 'Transparency & Trust',
+        description:
+          'Blockchain technology provides unmatched transparency by creating an immutable record of transactions, fostering trust among all participants.',
+        icon: 'tabler:eye',
+      },
+      {
+        title: 'Enhanced Security',
+        description:
+          'Benefit from robust security with cryptographic protocols that safeguard your data and transactions against tampering and fraud.',
+        icon: 'tabler:shield-lock',
+      },
+      {
+        title: 'Decentralization & Autonomy',
+        description:
+          'Operate with autonomy through decentralized networks, reducing reliance on central authorities and intermediaries.',
+        icon: 'tabler:network',
+      },
+      {
+        title: 'Efficiency & Speed',
+        description:
+          'Streamline processes and reduce transaction times with blockchain’s automated, real-time operations, enhancing overall efficiency.',
+        icon: 'tabler:clock',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/clock.avif',
+      alt: 'Blockchain Benefits',
+    }}
+  />
 
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Blockcore Projects"
-    subtitle="Explore some of the innovative projects our community is developing"
-    tagline="Projects"
-    items={[
-      {
-        title: 'Angor',
-        description: "Angor is a decentralized crowdfunding platform built on Bitcoin and utilizes Nostr for enhanced security and transparency.",
-        icon: 'flat-color-icons:template',
+  title="Blockcore Projects"
+  subtitle="Explore some of the innovative projects our community is developing"
+  tagline="Projects"
+  items={[
+    {
+      title: 'Angor',
+      description:
+        'Angor is a decentralized crowdfunding platform built on Bitcoin and utilizes Nostr for enhanced security and transparency.',
+      icon: 'flat-color-icons:template',
+      callToAction: {
+        variant: 'link',
+        text: 'Go to Angor',
+        href: 'https://angor.io',
+        target: '_blank'
       },
-      {
-        title: 'Ariton',
-        description:
-          "Connect with communities that share your passions, bringing your real-life connections online through the social graph.",
-        icon: 'flat-color-icons:gallery',
+    },
+    {
+      title: 'Ariton',
+      description:
+        'Connect with communities that share your passions, bringing your real-life connections online through the social graph.',
+      icon: 'flat-color-icons:gallery',
+      callToAction: {
+        variant: 'link',
+        text: 'Visit Ariton',
+        href: 'https://ariton.app',
+        target: '_blank'
       },
-      {
-        title: 'Wallet',
-        description: "Blockcore, Stratis and Cirrus Non-Custodial HD wallet in your browser for Coins, Tokens, Identities (DID), NFTs and more.",
-        icon: 'flat-color-icons:approval',
+    },
+    {
+      title: 'Wallet',
+      description:
+        'Blockcore, Stratis and Cirrus Non-Custodial HD wallet in your browser for Coins, Tokens, Identities (DID), NFTs and more.',
+      icon: 'flat-color-icons:approval',
+      callToAction: {
+        variant: 'link',
+        text: 'Explore Wallet',
+        href: 'https://wallet.blockcore.net/',
+        target: '_blank'
       },
-      {
-        title: 'Explorer',
-        description: "Individual chains that build on Blockcore can run this explorer for their own chain, without the multi-chain capability.",
-        icon: 'flat-color-icons:document',
+    },
+    {
+      title: 'Explorer',
+      description:
+        'Individual chains that build on Blockcore can run this explorer for their own chain, without the multi-chain capability.',
+      icon: 'flat-color-icons:document',
+      callToAction: {
+        variant: 'link',
+        text: 'Go to Explorer',
+        href: 'https://explorer.blockcore.net',
+        target: '_blank'
       },
-      {
-        title: 'Blockcore Node',
-        description: "Powering the network – Blockcore Node drives blockchain operations securely and efficiently.",
-        icon: 'flat-color-icons:currency-exchange',
+    },
+    {
+      title: 'Blockcore Node',
+      description:
+        'Powering the network – Blockcore Node drives blockchain operations securely and efficiently.',
+      icon: 'flat-color-icons:currency-exchange',
+      callToAction: {
+        variant: 'link',
+        text: 'Check out Blockcore Node',
+        href: 'https://github.com/block-core/blockcore-nodes',
+        target: '_blank'
       },
-      {
-        title: 'Blockcore Notes',
-        description: "Share your thoughts and interact with others in a fully transparent and open manner that is not restricted by any boundaries.",
-        icon: 'flat-color-icons:voice-presentation',
-      }
-
-    ]}
-  >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Features2>
+    },
+    {
+      title: 'Blockcore Notes',
+      description:
+        'Share your thoughts and interact with others in a fully transparent and open manner that is not restricted by any boundaries.',
+      icon: 'flat-color-icons:voice-presentation',
+      callToAction: {
+        variant: 'link',
+        text: 'Go to Blockcore Notes',
+        href: 'https://notes.blockcore.net',
+        target: '_blank'
+      },
+    }
+  ]}
+>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+</Features2>
 
   <!-- HighlightedPosts Widget ******* -->
 
@@ -305,44 +327,43 @@ id="start"
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-  title="Frequently Asked Questions"
-  subtitle="Explore these FAQs to learn more about Blockcore’s products and how they can enhance your decentralized projects."
-  tagline="FAQs"
-  classes={{ container: 'max-w-6xl' }}
-  items={[
-    {
-      title: 'What is the Blockcore Blockchain platform?',
-      description:
-        "Blockcore's Blockchain platform is a robust, open-source solution for building custom blockchains. It offers flexibility, scalability, and a developer-friendly environment for creating secure decentralized applications.",
-    },
-    {
-      title: 'How does Angor improve crowdfunding?',
-      description:
-        "Angor leverages Bitcoin and Nostr to provide a secure and transparent decentralized crowdfunding platform, allowing investors to maintain control of their funds with innovative time-lock contracts.",
-    },
-    {
-      title: 'What is Ariton and how can it help me?',
-      description:
-        "Ariton is a decentralized platform for building and managing communities. It empowers users to own their data and identities, offering a secure and private environment for social interaction and economic activities.",
-    },
-    {
-      title: 'How can I use Blockcore Notes?',
-      description:
-        "Blockcore Notes is a decentralized note-taking app that uses Nostr and Web5 for secure and private storage of your notes. It’s perfect for users who value control over their personal data.",
-    },
-    {
-      title: 'Can I integrate Blockcore with other blockchains?',
-      description:
-        "Yes, Blockcore’s platform is designed with cross-chain compatibility in mind, allowing you to integrate and interact with multiple blockchains seamlessly.",
-    },
-    {
-      title: 'How can I get involved with Blockcore development?',
-      description:
-        "You can contribute to Blockcore by joining our GitHub community, where developers, designers, and enthusiasts collaborate on various projects. We welcome all contributions, big or small.",
-    },
-  ]}
-/>
-
+    title="Frequently Asked Questions"
+    subtitle="Explore these FAQs to learn more about Blockcore’s products and how they can enhance your decentralized projects."
+    tagline="FAQs"
+    classes={{ container: 'max-w-6xl' }}
+    items={[
+      {
+        title: 'What is the Blockcore Blockchain platform?',
+        description:
+          "Blockcore's Blockchain platform is a robust, open-source solution for building custom blockchains. It offers flexibility, scalability, and a developer-friendly environment for creating secure decentralized applications.",
+      },
+      {
+        title: 'How does Angor improve crowdfunding?',
+        description:
+          'Angor leverages Bitcoin and Nostr to provide a secure and transparent decentralized crowdfunding platform, allowing investors to maintain control of their funds with innovative time-lock contracts.',
+      },
+      {
+        title: 'What is Ariton and how can it help me?',
+        description:
+          'Ariton is a decentralized platform for building and managing communities. It empowers users to own their data and identities, offering a secure and private environment for social interaction and economic activities.',
+      },
+      {
+        title: 'How can I use Blockcore Notes?',
+        description:
+          'Blockcore Notes is a decentralized note-taking app that uses Nostr and Web5 for secure and private storage of your notes. It’s perfect for users who value control over their personal data.',
+      },
+      {
+        title: 'Can I integrate Blockcore with other blockchains?',
+        description:
+          'Yes, Blockcore’s platform is designed with cross-chain compatibility in mind, allowing you to integrate and interact with multiple blockchains seamlessly.',
+      },
+      {
+        title: 'How can I get involved with Blockcore development?',
+        description:
+          'You can contribute to Blockcore by joining our GitHub community, where developers, designers, and enthusiasts collaborate on various projects. We welcome all contributions, big or small.',
+      },
+    ]}
+  />
 
   <!-- Stats Widget ****************** -->
 
@@ -358,24 +379,18 @@ id="start"
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
-  actions={[
-    {
-      variant: 'primary',
-      text: 'Explore on GitHub',
-      href: 'https://github.com/block-core',
-      target: '_blank',
-      icon: 'tabler:brand-github',
-    },
-  ]}
->
-  <Fragment slot="title">
-    Discover Blockcore on GitHub
-  </Fragment>
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Explore on GitHub',
+        href: 'https://github.com/block-core',
+        target: '_blank',
+        icon: 'tabler:brand-github',
+      },
+    ]}
+  >
+    <Fragment slot="title"> Discover Blockcore on GitHub </Fragment>
 
-  <Fragment slot="subtitle">
-    Explore our open-source products and join the decentralized revolution.
-  </Fragment>
-</CallToAction>
-
-
+    <Fragment slot="subtitle"> Explore our open-source products and join the decentralized revolution. </Fragment>
+  </CallToAction>
 </Layout>
