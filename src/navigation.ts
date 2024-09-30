@@ -7,7 +7,7 @@ export const headerData = {
       href: getPermalink('/'),
     },
     {
-      text: 'Platform',
+      text: 'Apps',
       links: [
         {
           text: 'Angor',
@@ -20,59 +20,51 @@ export const headerData = {
         {
           text: 'Notes',
           href: getPermalink('/platform/notes'),
-        }
-      ],
-    },
-    {
-      text: 'Tools',
-      links: [
+        },
+        { 
+          text: '----', 
+          disabled: true, 
+        },
         {
-          text: 'Explorer',
-          href: getPermalink('/platform/explorer'),
+          text: 'Blockchain',
+          href: getPermalink('/platform/node-software'),
         },
         {
           text: 'Indexer',
           href: getPermalink('/platform/indexer'),
         },
         {
-          text: 'Node Software',
-          href: getPermalink('/platform/node-software'),
-        },
-        {
-          text: 'Wallet',
-          href: getPermalink('/platform/wallet'),
+          text: 'Explorer',
+          href: getPermalink('/platform/explorer'),
         }
+       
       ],
     },
     {
-      text: 'Developers',
+      text: 'Resources',
       links: [
         {
           text: 'Documentation',
           href: 'https://docs.blockcore.net',
         },
         {
+          text: 'Blog',
+          href: getBlogPermalink(),
+        },
+        {
           text: 'GitHub',
           href: 'https://github.com/block-core',
           target: '_blank',
-        }
-      ],
-    },
-    {
-      text: 'Community',
-      links: [
-        {
-          text: 'Blog',
-          href: getBlogPermalink(),
         },
          {
           text: 'Discord',
           href: 'https://www.blockcore.net/discord',
           target: '_blank',
-        } 
+        }
+         
       ],
     },
-    {
+     {
       text: 'About',
       links: [
         {
