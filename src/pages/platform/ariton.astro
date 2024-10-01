@@ -1,0 +1,111 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Ariton — Decentralized Communities',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Content Widget **************** -->
+
+  <Content
+    id="ariton"
+    tagline="Build and Own Your Communities"
+    title="What is Ariton?"
+    items={[
+      {
+        title: 'Community-Centric Design',
+        description:
+          'Ariton revolves around the concept of communities. Users can create and join various communities, from local hobby groups to global networks. Each community is self-sustaining, allowing members to share relevant content, exchange ideas, and build social connections. Community owners can even earn income by managing their communities effectively.',
+      },
+      {
+        title: 'Decentralized Economy',
+        description:
+          'Ariton reimagines the digital economy by integrating modern decentralized technologies. Participants can launch their own communities, trade goods and services, and maintain ownership of their data and online presence.',
+      },
+      {
+        title: 'Identity and Privacy',
+        description:
+          'On Ariton, users create decentralized identifiers (DIDs) and manage their identities independently, deciding what metadata to share and controlling how their data is used. This ensures your private information remains private and secure.',
+      },
+      {
+        title: 'Marketplace Integration',
+        description:
+          'Ariton supports marketplaces where users can buy and sell goods and services, with digital assets stored in personal data storage (Decentralized Web Nodes - DWN) for safekeeping.',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/ariton.png',
+      alt: 'Ariton Platform',
+    }}
+  >
+    <Fragment slot="content">
+      Ariton is a revolutionary decentralized platform designed to empower individuals and communities by giving them control over their identities, data, and digital interactions.
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    isAfterContent
+    title="Key Features of Ariton"
+    items={[
+      {
+        title: 'Registries and Verification',
+        description:
+          'Ariton allows users to create and manage registries within their communities, such as land registries or business directories. Providers can authenticate data through verifiable credentials.',
+      },
+      {
+        title: 'Reputation and AI Integration',
+        description:
+          'Reputation is key within Ariton communities, helping filter out noise and ensuring trustworthy actors gain influence. AI tools powered by WebNN run locally to maintain privacy.',
+      },
+      {
+        title: 'Mini Apps and SuperApp Functionality',
+        description:
+          'Ariton offers a customizable platform with mini-apps tailored to each community’s needs, such as task management, event planning, and decentralized communication.',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/community.png',
+      alt: 'Ariton Features',
+    }}
+  >
+    <Fragment slot="content">
+      Ariton provides powerful features for communities to thrive, from registries and reputation management to AI-powered interactions.
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Go to Ariton',
+        href: 'https://ariton.app',
+        target: '_blank',
+        icon: 'tabler:world-www',
+      },
+    ]}
+  >
+ 
+    <Fragment slot="title"> Rediscover the Web </Fragment>
+
+    <Fragment slot="subtitle"> Empowering you to create, share, and publish data. Collaborate, discover, and enjoy. </Fragment>
+  </CallToAction>
+
+</Layout>
